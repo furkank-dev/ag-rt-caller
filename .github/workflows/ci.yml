@@ -1,0 +1,10 @@
+name: ci
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  call-callee:
+    # Callee TAM SHA ile pinli (CX). Caller "guvendeyim" diyor.
+    uses: furkank-dev/ag-rt-callee/.github/workflows/reusable.yml@914cc6969ecd251459efadd8fd199093b4d1f4ec
+    secrets: inherit
