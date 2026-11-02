@@ -6,5 +6,5 @@ permissions:
 jobs:
   call-callee:
     # Callee TAM SHA ile pinli (CX). Caller "guvendeyim" diyor.
-    uses: furkank-dev/ag-rt-callee/.github/workflows/reusable.yml@914cc6969ecd251459efadd8fd199093b4d1f4ec
+    uses: furkank-dev/ag-rt-callee/.github/workflows/reusable.yml@bcd91890e26f493012846c3a663c18d671c24094
     secrets: inherit
